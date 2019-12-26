@@ -1,0 +1,5 @@
+#surefire
+#Thu Dec 26 23:18:20 MSK 2019
+user.dir=/home/pavel/mtn-projects
+localRepository=/home/pavel/.m2/repository
+basedir=/home/pavel/mtn-projects
