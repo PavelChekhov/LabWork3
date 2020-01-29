@@ -44,7 +44,7 @@
                         </dependency>
        </dependencies>
          <build>
-         <outputDirectory>target/classes</outputDirectory>
+          <outputDirectory>target/classes</outputDirectory>
           <finalName>ROOT</finalName>
          <sourceDirectory>src/main/java/com/test</sourceDirectory>
             <resources>
@@ -78,4 +78,11 @@
                     </plugin>
                  </plugins>
              </build>
+              <distributionManagement>
+               <repository>
+                 <id>deployment</id>
+                 <name>Internal Releases</name>
+                 <url>http://http://127.0.0.1:8081/repository/maven-proxy-test/</url>
+               </repository>
+              </distributionManagement>
 </project>
