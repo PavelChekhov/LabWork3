@@ -77,7 +77,7 @@
                          <version>1.6.3</version>
                          <extensions>true</extensions>
                          <configuration>
-                          <serverid>nexus</serverid>
+                          <serverId>nexus</serverId>
                           <nexusUrl>http://127.0.0.1:8081</nexusUrl>
                          </configuration>
                     </plugin>
